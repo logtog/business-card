@@ -10,4 +10,6 @@
     <string name="label_company">Company</string>
     <string name="label_color">Hexadecimal color</string>
     <string name="label_confirm">Confirm</string>
+    <string name="label_show_sucess">Card registered successfully</string>
+    <string name="label_error_hex">Hexadecimal color error, will be white by default</string>
 </resources>

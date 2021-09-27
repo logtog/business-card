@@ -11,4 +11,7 @@
     <string name="label_company">Empresa</string>
     <string name="label_color">Cor hexadecimal</string>
     <string name="label_confirm">Confirmar</string>
+    <string name="label_show_sucess">Cartão cadastrado com sucesso</string>
+    <string name="label_error_hex">Erro na cor Hexadecimal, irá ficar branco por padrão</string>
+
 </resources>
