@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titleColor">
+        <item name="android:textColor">#515151</item>
+    </style>
+    <style name="teste">
+        <item name="android:fillColor">#000</item>
+    </style>
+</resources>
