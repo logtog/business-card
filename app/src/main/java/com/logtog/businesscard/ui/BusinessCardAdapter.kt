@@ -37,7 +37,7 @@ class BusinessCardAdapter :
             try {
                 binding.mcvContent.setCardBackgroundColor(Color.parseColor(item.backgroundColor))
             } catch (ex: Exception) {
-                binding.mcvContent.setCardBackgroundColor(Color.WHITE)
+
             }
             binding.mcvContent.setOnClickListener {
                 listenerShare(it)

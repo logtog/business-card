@@ -6,6 +6,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.logtog.businesscard.App
 import com.logtog.businesscard.databinding.ActivityMainBinding
+import com.logtog.businesscard.util.Image
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,6 +29,9 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener {
             val intent = Intent(this@MainActivity, AddBusinessCardActivity::class.java)
             startActivity(intent)
+        }
+        adapter.listenerShare = {card ->
+            Image.share(this@MainActivity, card)
         }
     }
 
